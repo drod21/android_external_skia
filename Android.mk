@@ -9,7 +9,7 @@ include $(CLEAR_VARS)
 
 LOCAL_ARM_MODE := arm
 
-LOCAL_CFLAGS += -O3 -ffast-math -funsafe-loop-optimizations
+LOCAL_CFLAGS += -ffast-math -funsafe-loop-optimizations
 
 # need a flag to tell the C side when we're on devices with large memory
 # budgets (i.e. larger than the low-end devices that initially shipped)
